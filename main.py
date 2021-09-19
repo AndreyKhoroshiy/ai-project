@@ -28,7 +28,7 @@ cv2.waitKey(0)
 
 
 
-
+# Считывание видео
 # cap = cv2.VideoCapture('videos/Police.mp4')
 #
 # while True:
@@ -38,6 +38,7 @@ cv2.waitKey(0)
 #     if cv2.waitKey(1) & 0xFF == ord('q'):
 #         break
 
+# Считывание видео с веб-камеры
 # cap = cv2.VideoCapture(0)
 # cap.set(3, 500)
 # cap.set(4, 300)

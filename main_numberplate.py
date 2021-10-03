@@ -32,7 +32,6 @@ crop = gray[x1:x2, y1:y2]
 
 text = easyocr.Reader(['en'])
 text = text.readtext(crop)
-print(text)
 
 res = text[0][-2]
 final_image = cv2.putText(img, res, (x1 - 200, y2 + 160), cv2.FONT_HERSHEY_PLAIN, 3, (0, 0, 255), 2)
